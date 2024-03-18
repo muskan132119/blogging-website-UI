@@ -1,0 +1,60 @@
+.topbar{
+    display:flex;
+    width:100%;
+    position:sticky;
+    height:37px;
+     top:0;
+     z-index: 999;
+    background-color:white;
+    
+}
+.top-left,.top-right{
+    display:flex;
+    flex:3;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    gap:.5rem;
+}
+.topIcons{
+    color:#444;
+    margin:5px;
+    padding:2px;
+    font-size:1.3rem;
+    cursor:pointer;
+}
+.top-center{
+    flex:6;  
+    margin:1rem;    
+}
+
+.top-Image{
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    object-fit:cover;
+   
+}
+.search-icon{
+    font-size:1.3rem;
+    color:#666;
+    margin-left:4px;
+}
+.toplist{
+    display:flex;
+    justify-content:center;
+   margin:0;
+   padding:0;
+   gap:2rem;
+   list-style: none;
+   font-family:sans-serif;
+   cursor: pointer;
+    
+}
+.toplistItem{
+    color:#66666690;
+    letter-spacing: 2px;
+    font-weight:300;
+    font-size:1.2rem;
+   
+}

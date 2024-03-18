@@ -1,0 +1,78 @@
+.settings{
+    display:flex;
+    margin-left:2rem;
+    /* border:2px solid red; */
+
+}
+.setting-wrapper{
+    flex:9;
+    /* border:3px solid green; */
+}
+.setting-title{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.setting-update{
+    color:coral;
+    font-size:1.8rem;
+    margin-bottom:1.3rem;
+}
+.setting-delete{
+    font-size:1rem;
+    color:#ff0000bb;
+    cursor:pointer;
+}
+
+.setting-form{
+    display:flex;
+    flex-direction:column;
+}
+.settingPP{
+    display:flex;
+
+    align-items: center;
+    margin:10px 0 ;
+}
+.settingPP>img{
+    width:50px;
+    height: 50px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPIcon{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-left:8px;
+    cursor:pointer;
+}
+.setting-form> label{
+    margin-top: 10px;
+    font-size:1.3rem;
+
+
+}
+.setting-form>input{
+    color:gray;
+    height:30px;
+    margin:10px 0;
+    border:none; 
+    border-bottom: 1px solid lightgray;
+}
+.settingsubmit{
+    width:150px;
+    align-self: center;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    background-color: teal;
+    padding:.8rem;
+    margin-top:1.3rem;
+}

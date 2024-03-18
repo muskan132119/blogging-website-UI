@@ -1,0 +1,77 @@
+.login{
+    height:calc(100vh - 50px);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(230, 223, 223, 0.5),
+        rgba(221, 216, 216, 0.5)), url("https://www.shutterstock.com/shutterstock/photos/524984974/display_1500/stock-photo-blank-a-paper-on-top-of-wood-table-with-supplies-top-view-flat-lay-524984974.jpg");
+    background-size: cover;
+    
+    
+  
+}
+.loginpage{
+    font-size:3rem;
+}
+.login-form{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form>label{
+    margin:10px 0;
+    background-color: white;
+}
+.loginInput{
+    padding:10px;
+    background-color:white; 
+    border:none;
+    border-radius:5px;
+    /* text-align: center; */
+}
+.loginbutton{
+    color:white;
+    margin-top:20px;
+    background-color: coral;
+     padding:.3rem; 
+     border:none;
+    border-radius:10px;
+    cursor: pointer;
+}
+.loginRegisterbutton{
+    position: absolute;
+    cursor: pointer;
+    top:60px;
+    right:40px;
+    border-radius: 10px;
+    background-color: teal;
+    padding:10px;
+    border:none;
+    color:white;
+}
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

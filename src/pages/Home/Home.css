@@ -1,0 +1,12 @@
+.side-post{
+ display:flex;
+ margin-top:0.3rem;
+ 
+}
+.left{
+    flex:9;
+}
+.right{
+    flex:3;
+
+}

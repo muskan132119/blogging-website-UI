@@ -1,0 +1,73 @@
+.Register{
+    height:calc(100vh - 50px);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(230, 223, 223, 0.5),
+        rgba(221, 216, 216, 0.5)), url("https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    
+    
+  
+}
+.Registerpage{
+    font-size:3rem;
+}
+.Register-form{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Register-form>label{
+    margin:10px 0;
+    
+    /* background-color: white; */
+}
+.RegisterInput{
+    padding:10px;
+    background-color:white; 
+    border:none;
+    border-radius:5px;
+    /* text-align: center; */
+}
+.Registerbutton{
+    color:white;
+    margin-top:20px;
+    background-color: teal;
+     padding:.3rem; 
+     border:none;
+    border-radius:10px;
+    cursor: pointer;
+}
+.RegisterRegisterbutton{
+    position: absolute;
+    cursor: pointer;
+    top:60px;
+    right:40px;
+    border-radius: 10px;
+    background-color: coral;
+    padding:10px;
+    border:none;
+    color:white;
+}
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

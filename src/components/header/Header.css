@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=PT+Serif:ital@1&display=swap');
+
+
+.header{
+    margin-top:2rem;
+    /* border:2px solid red; */
+    
+}
+.headertitle{
+  
+    display:flex;
+    /* border:2px solid black; */
+    color:#444;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.headertitle-m{
+    position:absolute;
+    /* margin-top:-1rem; */
+    font-size: 1.3rem;
+    top:12%;
+   font-family:'PT Serif', serif;;
+}
+.Headertitle-l{
+    font-size:6rem ;
+    position: absolute;
+    top:13%;
+    font-family:'PT Serif', serif;
+   
+    
+}
+.back-img{
+    /* border:2px solid red; */
+    margin-top:6rem;
+    height:600px;
+    width:100%;
+    object-fit:cover;
+}
